@@ -11,7 +11,7 @@ func _init():
 	description = "A triple-carbine fruit-changing machine. It will transmogrify cherries into other fruit. This can come in surprisingly handy."
 	localized_descriptions = {}
 	values = []
-	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": 0, "var_math": [{"*": "saved_value"}]}}
+	value_text = {"color": "symbol_reminder_down_text", "value": {"starting_value": 0, "var_math": [{"+": "saved_value"}]}}
 	rarity = "common"
 	groups = []
 	sfx = []
